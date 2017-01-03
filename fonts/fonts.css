@@ -1,0 +1,20 @@
+@font-face{
+	font-family: RalewayBold;
+	src:url(RalewayBold.ttf);
+}
+@font-face{
+	font-family: RalewayRegular;
+	src:url(RalewayRegular.ttf);
+}
+@font-face{
+	font-family: RalewaySemibold;
+	src:url(RalewaySemiBold.ttf);
+}
+@font-face{
+	font-family: BitterBold;
+	src:url(Bitter-Bold.otf);
+}
+@font-face{
+	font-family: BitterRegular;
+	src:url(Bitter-Regular.otf);
+}

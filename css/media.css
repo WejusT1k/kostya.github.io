@@ -1,0 +1,235 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.carousel-indicators{
+		right:10px;
+	}
+	.image_gallery{
+	width: 48%;
+	height: 40%;
+}
+.image_gallery img{
+	width: 100%;
+	height: 500px;
+}
+.third_image{
+	margin-left: 0;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu>li,
+	.right_menu{
+		margin:0!important;
+		padding:0!important;
+		font-size: 14pt!important;
+	}
+	.menu li:last-child,
+	.right_menu{
+		margin-top:10px!important;
+	}
+	.carousel{
+		display: none;
+	}
+	.main_screen{
+		display: block;
+	}
+	.image_advanteges,
+	.info_advant{
+	text-align: center;
+	float: none;
+	}
+	.second_block{
+		padding: 0;
+	}
+	.info_advant{
+		margin-left: 5px;
+	}
+.image_gallery img{
+	width: 100%;
+	height: 350px;
+}
+.mynav{
+	padding: 0;
+}
+.fifth_block .col-sm-3{
+	margin-left: 5%;
+}
+.block_price{
+	padding: 40px;
+}
+.obertka_price{
+	display: block;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.menu li:last-child,
+	.right_menu{
+		display: none;
+	}
+	.slideblock span{
+		display: inline-block;
+	}
+	.head_main{
+		padding: 0;
+	}
+	.content h1{
+		font-size: 24pt;
+
+	}
+	.content p{
+		font-size: 14pt;
+	}
+	.content{
+		text-align: center;
+	}
+	.image_gallery img{
+	width: 100%;
+	height: 250px;
+}
+.btn_main{
+
+	width: 49%;
+	margin:50px 0 0 0;
+}
+.logo{
+	margin-top: 5px;
+	height: 50px;
+	width: 90px;
+}
+.cyfra{
+	font-size: 32px;
+}
+.some_block p{
+	font-size: 12px;
+}
+.callback{
+	display: none;
+}
+.contacts p:nth-child(2){
+	margin:0;
+	float: right;
+}
+.contacts p:nth-child(1){
+float: left;
+}
+.contacts p:nth-child(2) i{
+	font-size: 48px;
+}
+.contacts p:nth-child(3){
+text-align: center;
+clear: both;
+}
+.soc_seti{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.img_vitkon{
+	margin-top: 1.5%;
+}
+.third_block p{
+	margin-left: 0;
+	text-align: center;
+}
+.zakaz{
+	margin:0;
+	width: 100%;
+}
+.mynav{
+	display: none;
+}
+.mynav_select{
+	display: block;
+}
+.select_price{
+	color: black;
+	display: block;
+}
+.parent{
+	padding-top: 80px;
+	
+}
+.parent .obertka_price{
+	margin:0 auto;
+}
+.col-sm-3:nth-child(2) .obertka_price,
+.col-sm-3:nth-child(3) .obertka_price{
+	display: none;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.image_gallery{
+		margin-top:10px;
+		margin-left:0;
+	width: 100%;
+}
+.content{
+	margin-top: 35%;
+}
+.btn_main{
+
+	width: 100%;
+	margin:20px 0 0 0;
+}
+.contacts p:nth-child(1){
+float: none;
+}
+.contacts p:nth-child(2){
+	margin:0;
+	float: none;
+}
+.contacts p:nth-child(2) i{
+	font-size: 100px;
+}
+.contacts p:nth-child(3){
+text-align: center;
+clear: both;
+}
+.circle_soc{
+	margin-right:25px;
+	float: left;
+	width: 50px;
+	height: auto;
+	
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
